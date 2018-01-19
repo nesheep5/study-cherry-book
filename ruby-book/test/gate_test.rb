@@ -3,7 +3,7 @@ require './lib/gate'
 require './lib/ticket'
 
 class GateTest < Minitest::Test
-  def test_gate
+  def test_umeda_to_juso
     # とりあえずGateオブジェクトが作れることを確認する
     # assert Gate.new
 
@@ -21,5 +21,5 @@ class GateTest < Minitest::Test
     ticket = Ticket.new(150)
     umeda.enter(ticket)
     refute mikuni.exit(ticket)
-  end 
+  end
 end
