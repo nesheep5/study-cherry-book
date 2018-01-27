@@ -1,4 +1,7 @@
 module Loggable
+  #logメソッドはprivateにする
+  private
+
   def log(text)
     puts "[LOG] #{text}"
   end
