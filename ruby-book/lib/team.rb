@@ -1,7 +1,7 @@
 require './lib/deep_freezable'
 
 class Team
-  extends DeepFreezable
+  extend DeepFreezable
 
   COUNTRIES = deep_freezable(['Japan', 'US', 'India'])
 end
