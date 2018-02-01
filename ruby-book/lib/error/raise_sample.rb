@@ -9,7 +9,9 @@ def currency_of(country)
     'rupee'
   else
     # 意図的に例外を発生させる
-    raise "向こうな国名です。#{country}"
+    # raise "無効な国名です。#{country}"
+    # 例外クラスのインスタンスを渡すことも可能
+    raise ArgumentError.new("無効な国名です。#{country}")
   end
 end
 
