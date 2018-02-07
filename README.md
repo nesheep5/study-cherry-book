@@ -1,4 +1,4 @@
-# study-ruby
+# study-ruby-for-aim-to-pro
 書籍「プロを目指す人のためのRuby入門」ついて学習するためのリポジトリ。
 
 ## 参考
