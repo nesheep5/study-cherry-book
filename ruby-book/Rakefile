@@ -1,4 +1,6 @@
-desc 'テスト用のタスクです'
-task :hello_world do
-  puts 'hello world!'
+namespace :my_task do
+  desc 'テスト用のタスクです'
+  task :hello_world do
+    puts 'hello world!'
+  end
 end
