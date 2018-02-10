@@ -1,3 +1,4 @@
+desc 'テスト用のタスクです'
 task :hello_world do
   puts 'hello world!'
 end
