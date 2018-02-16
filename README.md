@@ -1,5 +1,5 @@
-# study-ruby-for-aim-to-pro
-書籍「プロを目指す人のためのRuby入門」ついて学習するためのリポジトリ。
+# study-cherry-book
+書籍「プロを目指す人のためのRuby入門」(チェリー本)について学習するためのリポジトリ。
 
 ## 参考
 * [書籍：プロを目指す人のためのRuby入門](http://amzn.to/2D3cWk8)
